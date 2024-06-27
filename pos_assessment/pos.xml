@@ -1,0 +1,12 @@
+<suite name="Include exclude methods suite">
+	<test name="Provide Methods">
+		<classes>
+			<class name="com.postest.org.pos_assessment.BuyInsuranceTest">
+				<methods>
+					<include name = "verifyBuyInsurance"/>
+					<include name = "creatingConsignmentNote"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
